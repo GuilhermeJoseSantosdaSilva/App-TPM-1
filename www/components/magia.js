@@ -31,3 +31,10 @@ $(document).on("click","#dividir", function(){
   var result = parseFloat(valor1)/parseFloat(valor2);
   $("#result").val(result);
 });
+
+
+$(document).on("click","#limpar", function(){
+  $("#valor1").val(null);
+  $("#valor2").val(null);
+  $("#result").val(null);
+});
